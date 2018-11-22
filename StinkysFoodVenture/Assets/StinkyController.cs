@@ -2,6 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public enum HeadEquipement  { NONE, CHOMPERS, CHILIPEPPER, EYELAZER }
+public enum TorsoEquipement { NONE, ROBOARMS, CHESTBEAM, EYELAZER }
+public enum TailEquipement  { NONE, SPRING, TRACKS, EYELAZER }
+
 public class StinkyController : MonoBehaviour
 {
     Transform       _transform;
